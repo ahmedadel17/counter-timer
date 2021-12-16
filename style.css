@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+    box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    overflow-y: hidden;
+    background-image: url('dan-aragon-n20DUSVsUk8-unsplash.jpg');
+    /* background-position-y: -200px; */
+    /* background-position-x: 300px; */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins','sans-serif';
+    background-repeat: no-repeat;
+    
+}
+.countdown_container{
+    display: flex;
+    /* margin-top: -10rem; */
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    /* margin-top: 2rem; */
+    text-align: center;
+    color: white;
+}
+.bigtext{
+    font-weight: bold;
+    font-size: 6rem;
+    margin-top: 0rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 1;
+    /* color: crimson; */
+    color: white;
+    text-align: center;
+}
+.countdownel{
+    margin-top: 5rem;
+    text-align: center;
+    z-index: 1;   
+    margin-left: 4rem; 
+    
+}
+.countdownel span{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    z-index: 1;
+}
+#background{
+    background-color: black;
+    width: 1500px;
+    height: 1000px;
+    position: relative;
+    bottom: 500px;
+    opacity: 0.6;
+    z-index: -1;
+}
